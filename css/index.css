@@ -1,0 +1,44 @@
+#content>div{
+    float: left;
+}
+#about{
+    width: 270px;
+    padding: 15px 25px;
+    background-color: #eceded;
+}
+#about p{
+    font-size: 13px;
+}
+#news{
+    width: 900px;
+    margin-left: 30px;
+}
+#latest{
+    width: 900px;
+    height: 350px;
+    border: 5px solid #dcdddd;
+    padding: 3px;
+}
+#latest img{
+    width: 884px;
+    height: 334px;
+}
+#latest p{
+    position: relative;
+    top: -180px;
+    width: 500px;
+    background-color: #F2F1EB;
+    padding: 20px 25px;
+    opacity: 0.8;
+}
+.newsBlock{
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 15px;
+}
+.newsBlock p{
+    font-size: 14px;
+}
+.pager{
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
