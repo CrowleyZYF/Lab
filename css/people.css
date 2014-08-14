@@ -233,9 +233,113 @@ h3{
     background: url("../image/paper.png");
     background-size: 100% 100%;
 }
+.bookIcon{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background: url("../image/book.png");
+    background-size: 100% 100%;
+}
+.nationalIcon{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background: url("../image/nationalLevel.png");
+    background-size: 100% 100%;
+}
+.provincialIcon{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background: url("../image/provincialLevel.png");
+    background-size: 100% 100%;
+}
+.foreignIcon{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background: url("../image/foreign.png");
+    background-size: 100% 100%;
+}
+.armyIcon{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background: url("../image/army.png");
+    background-size: 100% 100%;
+}
+.labIcon{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background: url("../image/lab.png");
+    background-size: 100% 100%;
+}
+.groupIcon{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background: url("../image/people.png");
+    background-size: 100% 100%;
+}
+.playIcon{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background: url("../image/play.png");
+    background-size: 100% 100%;
+}
 .paperInfo{
     margin: 20px;
 }
 .paperInfo .papersInfo{
     left: 50px;
+}
+.books{
+    list-style: none;
+}
+.books>li{
+    clear: both;
+    margin-bottom: 30px;
+    height: 150px;
+}
+.books>li>img{
+    float: left;
+    border: 5px solid #dcdddd;
+    padding: 3px;
+    width: 120px;
+    height: 150px;
+}
+.books>li>ul{
+    list-style: none;
+    float: left;
+    font-size: 16px;
+}
+.books>li>ul span{
+    display: inline-block;
+    width: 120px;
+}
+.books>li>ul>li{
+    margin: 0 0 8px 0;
+}
+.photoImg{
+    width: 881px;
+}
+.item{
+    width: 900px;
+    height: 450px;
+}
+.carousel{
+    width: 900px;
+    border: 5px solid #dcdddd;
+    padding: 5px;
+    margin-bottom: 75px;
 }
